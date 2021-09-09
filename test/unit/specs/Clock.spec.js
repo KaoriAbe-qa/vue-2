@@ -7,6 +7,7 @@ describe('Clock.vue', () => {
     const vm = new Constructor().$mount()
 
     expect(vm.$el.querySelector('.date').textContent)
-      .toEqual('2021/08/24')
+      .toEqual('2021/09/03')
   })
+
 })
